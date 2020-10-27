@@ -22,6 +22,11 @@ const MainContainer = styled.div`
   padding: 10px;
 `;
 
+const HeaderDiv = styled.div`
+  font-size: 2.5rem;
+  font-weight: 900;
+`;
+
 const TitleDiv = styled.div`
   display: flex;
   width: 100%;
@@ -157,7 +162,7 @@ const CaseDetail = () => {
   return (
     <ContainerWrapper>
       <MainContainer>
-        <h1>Case Details</h1>
+        <HeaderDiv>HOTZONE</HeaderDiv>
         <TitleDiv>Case Information</TitleDiv>
         <FieldDisplay
           field="case ID"
