@@ -12,13 +12,14 @@ const ContainerWrapper = styled.div`
 `;
 
 const MainContainer = styled.div`
-  padding: 10px;
+  padding: 0 10px;
   display: flex;
   align-items: center;
   flex-direction: column;
   position: relative;
   max-width: 1080px;
   width: 100%;
+  height: 100vh;
   background-color: #61dafb;
 `;
 

@@ -18,8 +18,9 @@ const MainContainer = styled.div`
   position: relative;
   max-width: 1080px;
   width: 100%;
+  height: 100vh;
   background-color: #c6c6c6;
-  padding: 10px;
+  padding: 0 10px;
 `;
 
 const HeaderDiv = styled.div`
