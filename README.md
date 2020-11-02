@@ -4,4 +4,4 @@
 HKU Software Engineering Course Project
 
 # Link to HotZone front-end application
-https://stark-woodland-81700.herokuapp.com/admin/
+https://calm-reaches-80309.herokuapp.com/cases
