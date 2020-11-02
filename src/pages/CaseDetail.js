@@ -95,7 +95,7 @@ const CaseDetail = () => {
   const {caseId} = useParams();
   useLayoutEffect(() => {
     axios.get(
-      `http://localhost:8000/cases/${caseId}/`
+      `https://stark-woodland-81700.herokuapp.com/cases/${caseId}/`
     ).then(res => {
       setSingleCase(res.data);
     }).catch(err =>
@@ -106,7 +106,7 @@ const CaseDetail = () => {
   const searchLocation = (e) => {
     e.preventDefault();
     axios.get(
-      `http://localhost:8000/locations/search/${searchInput}/`
+      `https://stark-woodland-81700.herokuapp.com/locations/search/${searchInput}/`
     ).then(res => {
       setSearchResult(res.data)
     }).catch(err => {
@@ -117,7 +117,7 @@ const CaseDetail = () => {
   const addCaseLocation = (e) => {
     e.preventDefault();
     axios.post(
-      `http://localhost:8000/case-locations/`,
+      `https://stark-woodland-81700.herokuapp.com/case-locations/`,
       {
         id: 0,
         date_from: dateFrom,

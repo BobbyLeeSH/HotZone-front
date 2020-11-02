@@ -53,7 +53,7 @@ const Case = () => {
   const [cases, setCases] = useState([]);
   useLayoutEffect(() => {
     axios.get(
-      `http://localhost:8000/cases/`
+      `https://stark-woodland-81700.herokuapp.com/cases/`
     ).then(res => {
       console.log(res.data)
       setCases(res.data);
